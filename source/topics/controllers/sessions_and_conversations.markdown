@@ -99,6 +99,13 @@ Some sites choose to use database storage to move the bulk of the data server-si
 
 #### Setup
 
+First, you will need to intall the 'activerecord-session_store' gem to your Gemfile:
+
+```ruby
+gem 'activerecord-session_store'
+```
+
+Then run 'bundle'from the terminal.
 First, create a migration to build the database table. From your command prompt:
 
 {% terminal %}
